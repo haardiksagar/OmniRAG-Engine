@@ -1,3 +1,8 @@
 langchain
 langchain-core
 langchain-community
+pymupdf
+pypdf
+unstructured
+openpyxl
+msoffcrypto-tool
