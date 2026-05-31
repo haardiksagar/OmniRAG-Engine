@@ -6,3 +6,12 @@ pypdf
 unstructured
 openpyxl
 msoffcrypto-tool
+text_splitter
+sentence-transformers
+faiss-cpu
+chromadb
+langchain-groq
+python-dotenv
+typesense
+langchain-ollama
+langgraph
