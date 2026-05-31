@@ -20,3 +20,6 @@ if __name__ == "__main__":
     query = "What are biomaterials?"
     summary = rag_search.search_and_summarize(query, top_k=5)
     print("Summary:", summary)
+
+
+# to get the git url use "git config --get remote.origin.url"
