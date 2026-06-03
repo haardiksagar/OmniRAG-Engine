@@ -31,7 +31,7 @@ class EmbeddingPipeline:
         return embeddings
 
 
-# Example usage
+# Example usage for better understanding
 if __name__ == "__main__":
 
     docs = load_all_documents("data")
