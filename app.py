@@ -22,4 +22,4 @@ if __name__ == "__main__":
     print("Summary:", summary)
 
 
-# to get the git url use "git config --get remote.origin.url"
+
