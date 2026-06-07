@@ -66,7 +66,7 @@ ollama run gemma2:2b
 2. **Run the application**: Execute `app.py` from the root of the project to process the documents, build the vector store, and execute a query.
 
 ```bash
-uv run python app.py
+python app.py
 ```
 *(Or, if your virtual environment is already activated, simply run `python app.py`)*
 
@@ -75,8 +75,7 @@ Open `app.py` and modify the `query` variable to ask questions based on your cus
 
 ```python
 rag_search = RAGSearch()
-query = "What are biomaterials?"
+query = "ASK YOUR Questions here"
 summary = rag_search.search_and_summarize(query, top_k=5)
 print("Summary:", summary)
 ```
-
