@@ -17,7 +17,7 @@ if __name__ == "__main__":
     # If you want to increase the length and detail of the final response,
     # increasing top_k (e.g., to 5 or 10) is one way to do it
     rag_search = RAGSearch()
-    query = "What are biomaterials?"
+    query = "Question?"
     summary = rag_search.search_and_summarize(query, top_k=5)
     print("Summary:", summary)
 
