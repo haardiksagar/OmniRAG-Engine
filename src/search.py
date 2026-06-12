@@ -18,7 +18,7 @@ class RAGSearch:
             self.vectorstore.build_from_documents(docs)
         else:
             self.vectorstore.load()
-        # groq_api_key = ""
+        # Ollama model mentioned
         self.llm = ChatOllama(model="gemma2:2b", temperature=0, max_tokens=500)
         print(f"[INFO] Ollama LLM initialized: {llm_model}")
 
